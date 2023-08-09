@@ -3,6 +3,7 @@ import java.util.function.Consumer;
 
 public class Main {
     public static void main(String[] args) {
+
         ArrayList<Integer> numbers = new ArrayList<Integer>();
         numbers.add(5);
         numbers.add(9);
@@ -24,5 +25,6 @@ public class Main {
             System.out.println(n);
         };
         Province.forEach(methods);
+
     }
 }
